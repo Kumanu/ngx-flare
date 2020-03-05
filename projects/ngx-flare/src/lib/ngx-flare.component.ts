@@ -21,7 +21,7 @@ export class NgxFlareComponent implements OnChanges, AfterViewInit {
   @Input()
   playing = true;
 
-  @Input()
+  // @Input()
   set playPosition(position: number) {
     if (this.example) {
       this.example.setPosition(position);
